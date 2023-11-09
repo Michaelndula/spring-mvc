@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class HomeController {
-    @RequestMapping("/")
+    @RequestMapping("/webapp")
     public String getHome(){
-        return "home";
+        return "index";
     }
 }

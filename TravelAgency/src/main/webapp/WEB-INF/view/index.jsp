@@ -1,4 +1,3 @@
-<!Doctype html>
 <html>
 <head>
     <title>Home Page</title>
