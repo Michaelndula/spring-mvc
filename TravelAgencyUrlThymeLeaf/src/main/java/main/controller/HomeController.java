@@ -19,16 +19,22 @@ public class HomeController {
     public String getHome(){
         return "index";
     }
+
+    // add a method to show the form that we will add a new tour
     @GetMapping("/addTour")
     public String showForm(Model model){
         model.addAttribute("tour", new Tour());
         return "form";
     }
+
+    // add a method which will take an object from the form page, and it will save that object
     @PostMapping("/processForm")
     public String showTourDate(@ModelAttribute Tour tour){
         tours.add(tour);
         return "redirect:showOffer";
     }
+
+    // add a method that will present all the records
     @GetMapping("/showOffer")
     public String getTours(Model model){
         model.addAttribute("tours", tours);
