@@ -4,13 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61747524-cfa8-4103-aa38-1341ecf6fc1d" name="Changes" comment="Adding forms">
+    <list default="true" id="61747524-cfa8-4103-aa38-1341ecf6fc1d" name="Changes" comment="form configurations">
+      <change afterPath="$PROJECT_DIR$/../TravelAgencyApp/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TravelAgencyApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TravelAgencyApp/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TravelAgencyApp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TravelAgencyApp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TravelAgencyApp/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TravelAgencyApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TravelAgencyApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TravelAgencyApp/src/main/java/main/config/ApplicationInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TravelAgencyApp/src/main/java/main/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TravelAgencyApp/src/main/java/main/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TravelAgencyApp/src/main/java/main/model/Tour.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TravelAgencyApp/src/main/webapp/WEB-INF/view/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TravelAgencyApp/src/main/webapp/WEB-INF/view/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TravelAgencyApp/src/main/webapp/WEB-INF/view/tours.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/tours.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/tours.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,24 +55,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/home/mikey/Projects/spring-mvc/TravelAgencyUrlThymeLeaf/src/main/webapp",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.44022244",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mikey/.SmartTomcat/TravelAgency&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.44022244&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
@@ -80,9 +91,6 @@
       <option name="catalinaBase" value="$USER_HOME$/.SmartTomcat/TravelAgency" />
       <option name="contextPath" value="/TravelAgency" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
         <TomcatInfo>
@@ -211,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699542101430</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="form configurations">
+      <option name="closed" value="true" />
+      <created>1699543595752</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1699543595752</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -225,6 +241,7 @@
     <MESSAGE value="Adding the Model with getters and setters" />
     <MESSAGE value="Adding form processing, taking the requests, and a method that will present all records" />
     <MESSAGE value="Adding forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding forms" />
+    <MESSAGE value="form configurations" />
+    <option name="LAST_COMMIT_MESSAGE" value="form configurations" />
   </component>
 </project>
