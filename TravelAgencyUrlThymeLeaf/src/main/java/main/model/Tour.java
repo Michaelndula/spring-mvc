@@ -57,4 +57,12 @@ public class Tour {
     public void setAllInclusive(boolean allInclusive) {
         this.allInclusive = allInclusive;
     }
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
 }
