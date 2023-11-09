@@ -30,7 +30,7 @@ public class WebConfig implements WebMvcConfigurer {
     public ServletContextTemplateResolver templateResolver() {
         ServletContextTemplateResolver resolver = new ServletContextTemplateResolver(context.getServletContext());
         resolver.setPrefix("/WEB-INF/view/");
-        resolver.setSuffix(".html");
+        resolver.setSuffix(".jsp");
         return resolver;
     }
 

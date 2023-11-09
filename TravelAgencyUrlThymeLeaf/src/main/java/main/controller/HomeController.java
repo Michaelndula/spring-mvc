@@ -17,7 +17,7 @@ public class HomeController {
     private List<Tour> tours = new ArrayList<>();
     @RequestMapping("/")
     public String getHome(){
-        return "index";
+        return "home";
     }
 
     // add a method to show the form that we will add a new tour
