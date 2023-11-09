@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61747524-cfa8-4103-aa38-1341ecf6fc1d" name="Changes" comment="Adding form processing, taking the requests, and a method that will present all records">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/tours.jsp" afterDir="false" />
+    <list default="true" id="61747524-cfa8-4103-aa38-1341ecf6fc1d" name="Changes" comment="Adding forms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/config/WebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/tours.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/tours.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/home/mikey/Projects/spring-mvc/TravelAgencyUrlThymeLeaf/src/main/webapp",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.44022244",
@@ -71,11 +71,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat/9.0.80" type="com.poratu.idea.plugins.tomcat">
-      <log_file alias="Tomcat Catalina Log" path="$USER_HOME$/.SmartTomcat/TravelAgency/TravelAgency/logs/catalina.*" />
-      <log_file alias="Tomcat Manager Log" path="$USER_HOME$/.SmartTomcat/TravelAgency/TravelAgency/logs/manager.*" />
-      <log_file alias="Tomcat Host Manager Log" path="$USER_HOME$/.SmartTomcat/TravelAgency/TravelAgency/logs/host-manager.*" />
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
       <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
       <option name="adminPort" value="8006" />
       <option name="catalinaBase" value="$USER_HOME$/.SmartTomcat/TravelAgency" />
       <option name="contextPath" value="/TravelAgency" />
@@ -203,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699539785948</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Adding forms">
+      <option name="closed" value="true" />
+      <created>1699542101430</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699542101430</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -216,6 +224,7 @@
     <MESSAGE value="Adding Thymeleaf configuration" />
     <MESSAGE value="Adding the Model with getters and setters" />
     <MESSAGE value="Adding form processing, taking the requests, and a method that will present all records" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding form processing, taking the requests, and a method that will present all records" />
+    <MESSAGE value="Adding forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding forms" />
   </component>
 </project>

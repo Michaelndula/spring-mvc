@@ -15,9 +15,9 @@ import java.util.List;
 public class HomeController {
 
     private List<Tour> tours = new ArrayList<>();
-    @RequestMapping("/")
+    @RequestMapping("/home")
     public String getHome(){
-        return "home";
+        return "index";
     }
 
     // add a method to show the form that we will add a new tour
