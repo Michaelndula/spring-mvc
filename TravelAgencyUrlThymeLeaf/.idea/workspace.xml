@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="61747524-cfa8-4103-aa38-1341ecf6fc1d" name="Changes" comment="Adding the Model with getters and setters">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/model/Tour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/model/Tour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/controller/UrlParamsController.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699535284168</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adding the Model with getters and setters">
+      <option name="closed" value="true" />
+      <created>1699536387329</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699536387329</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
