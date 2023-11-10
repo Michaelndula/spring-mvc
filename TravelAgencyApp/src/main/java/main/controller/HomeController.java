@@ -15,7 +15,7 @@ import java.util.List;
 @Controller
 public class HomeController {
     private List<Tour> tours = new ArrayList<>();
-    @RequestMapping("/home")
+    @RequestMapping("/")
     public String getHome(){
         return "home";
     }
