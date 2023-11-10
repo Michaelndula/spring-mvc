@@ -1,5 +1,7 @@
 package main.controller;
 
+import main.model.Tour;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -9,8 +11,9 @@ public class HomeController {
         return "home";
     }
 
-    @GetMapping("/showForm")
-    public String getForm(){
+    @GetMapping("/addTour")
+    public String getForm(Model model){
+        model.addAttribute("tour", new Tour());
         return "form";
     }
 }
