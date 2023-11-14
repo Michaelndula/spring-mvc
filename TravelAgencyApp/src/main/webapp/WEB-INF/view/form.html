@@ -8,32 +8,33 @@
 <body>
     <h1>Add new Tour</h1>
 
-    <form action="#" th:action="@{/processForm}" th:object="${tour}" method="post">
+    <form action="#" th:action="@{/processTour}" th:object="${tour}" method="post">
         <div>
             <label>Name</label>
-            <input type="text" th:fiels="*{name}">
+            <input type="text" th:field="*{name}">
         </div>
         <div>
             <label>Code</label>
-            <input type="text" th:fiels="*{code}">
+            <input type="text" th:field="*{code}">
         </div>
         <div>
             <label>Continent</label>
-            <select name="continent" >
-                <option th:each="continent : ${T(main.model.Tour.Continent).values()}" th:values="${continent}" th:text="${continent}"></option>
+            <select name="continent">
+                <option th:each="continent : ${T(main.model.Tour.Continents).values()}"
+                        th:value="${continent}" th:text="${continent}"></option>
             </select>
         </div>
         <div>
             <label>Start Date</label>
-            <input type="date" th:fiels="*{date}">
+            <input type="date" th:field="*{date}">
         </div>
         <div>
             <label>Duration</label>
-            <input type="number" th:fiels="*{duration}">
+            <input type="number" th:field="*{duration}">
         </div>
         <div>
             <label>All Inclusive</label>
-            <input type="checkbox" th:fiels="*{allInclusive}">
+            <input type="checkbox" th:field="*{allInclusive}">
         </div>
         <div>
             <input type="submit" value="submit">

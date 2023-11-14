@@ -15,15 +15,15 @@
                 <td>Continent</td>
                 <td>Date</td>
                 <td>Duration</td>
-                <td>All Inclusive</td>
+                <td>All-Inclusive</td>
             </tr>
             <tr th:each="tour: ${tours}">
-                <td th:text="{tour.name}"></td>
-                <td th:text="{tour.code}"></td>
-                <td th:text="{tour.continent}"></td>
-                <td th:text="{tour.date}"></td>
-                <td th:text="{tour.duration}"></td>
-                <td th:text="{tour.allInclusive}"></td>
+                <td th:text="${tour.name}"></td>
+                <td th:text="${tour.code}"></td>
+                <td th:text="${tour.continent}"></td>
+                <td th:text="${tour.date}"></td>
+                <td th:text="${tour.duration}"></td>
+                <td th:text="${tour.allInclusive}"></td>
             </tr>
         </table>
         <span th:if="${tours.empty}">No tours currently available, check back later</span>

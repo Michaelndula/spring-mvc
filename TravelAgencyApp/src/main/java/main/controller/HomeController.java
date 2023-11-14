@@ -29,7 +29,7 @@ public class HomeController {
     @PostMapping("/processTour")
     public String postTour(@ModelAttribute Tour tour){
         tours.add(tour);
-        return "redirect:showTours";
+        return "redirect:showOffer";
     }
 
     @GetMapping("/showOffer")

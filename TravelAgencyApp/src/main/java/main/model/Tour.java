@@ -10,8 +10,8 @@ public class Tour {
     }
     private String name;
     private String code;
-    private Continents continents;
-    @DateTimeFormat(pattern = "yyyy-mm-dd")
+    private Continents continent;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date date;
     private int duration;
     private boolean allInclusive;
@@ -32,12 +32,12 @@ public class Tour {
         this.code = code;
     }
 
-    public Continents getContinents() {
-        return continents;
+    public Continents getContinent() {
+        return continent;
     }
 
-    public void setContinents(Continents continents) {
-        this.continents = continents;
+    public void setContinent(Continents continent) {
+        this.continent = continent;
     }
 
     public Date getDate() {
