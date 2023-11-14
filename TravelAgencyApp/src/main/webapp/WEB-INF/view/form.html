@@ -21,7 +21,7 @@
         </div>
         <div>
             <label>Continent</label>
-            <select name="continent">
+            <select th:field="*{continent}">
                 <option th:each="continent : ${T(main.model.Tour.Continents).values()}"
                         th:value="${continent}" th:text="${continent}"></option>
             </select>
