@@ -1,6 +1,8 @@
 package main.controller;
 
+import main.component.TourValidator;
 import main.model.Tour;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -15,6 +17,14 @@ import java.util.List;
 
 @Controller
 public class HomeController {
+
+    @Autowired
+    private TourValidator tourValidator;
+
+    @Autowired
+    public HomeController(TourValidator tourValidator) {
+        this.tourValidator = tourValidator;
+    }
     private List<Tour> tours = new ArrayList<>();
     @RequestMapping("/")
     public String getHome(){
@@ -28,7 +38,9 @@ public class HomeController {
     }
 
     @PostMapping("/processTour")
-    public String postTour(@Valid @ModelAttribute Tour tour, BindingResult bindingResult){
+    public String postTour(@ModelAttribute @Valid Tour tour, BindingResult bindingResult){
+        tourValidator.validate(tour, bindingResult);
+
         if(bindingResult.hasErrors()){
             return "form";
         }
