@@ -25,6 +25,11 @@
       <artifactId>spring-webmvc</artifactId>
       <version>4.1.4.RELEASE</version>
     </dependency>
+      <dependency>
+          <groupId>org.hibernate.validator</groupId>
+          <artifactId>hibernate-validator</artifactId>
+          <version>8.0.1.Final</version>
+      </dependency>
   </dependencies>
   <build>
     <finalName>TravelAgency</finalName>
