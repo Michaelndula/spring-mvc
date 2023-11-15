@@ -9,18 +9,18 @@ public class Tour {
     private enum Continents{
         Africa, Asia, Europe, North_America, South_America;
     }
-    @NotBlank(message = "Name cannot be null")
-    @Size(min = 5, message = "name should have at least 5 characters")
+    @NotBlank(message = "{Invalid.name}")
+    @Size(min = 5, message = "{Invalid.name}")
     private String name;
-    @Pattern(regexp = "^[a-zA-Z]{2}-[0-9]{2}[a-zA-Z]{1}$", message = "Expected format is CC-DDC where C is character and D is digit")
+    @Pattern(regexp = "^[a-zA-Z]{2}-[0-9]{2}[a-zA-Z]{1}$", message = "{Invalid.code}")
     private String code;
     private Continents continent;
-    @NotNull(message = "Date cannot be null")
-    @Future(message = "Date should be from the future")
+    @NotNull(message = "{Invalid.date}")
+    @Future(message = "{Invalid.date}")
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date date;
-    @Min(value = 7, message = "Must be between 7 and 21")
-    @Max(value = 21, message = "Must be between 7 and 21")
+    @Min(value = 7, message = "{Invalid.durationRang}")
+    @Max(value = 21, message = "{Invalid.durationRang}")
     private int duration;
     private boolean allInclusive;
 
