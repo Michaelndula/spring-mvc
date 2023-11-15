@@ -4,18 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="resources/main.css">
 </head>
 <body>
     <h1>Add new Tour</h1>
 
-    <form action="#" th:action="@{/processTour}" th:object="${tour}" method="post">
+    <form class="form" action="#" th:action="@{/processTour}" th:object="${tour}" method="post">
         <div>
-            <div style="color: red" th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></div>
+            <div class="error" th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></div>
             <label>Name</label>
             <input type="text" th:field="*{name}">
         </div>
         <div>
-            <div style="color: red" th:if="${#fields.hasErrors('code')}" th:errors="*{code}"></div>
+            <div class="error" th:if="${#fields.hasErrors('code')}" th:errors="*{code}"></div>
             <label>Code</label>
             <input type="text" th:field="*{code}">
         </div>
@@ -27,12 +28,12 @@
             </select>
         </div>
         <div>
-            <div style="color: red" th:if="${#fields.hasErrors('date')}" th:errors="*{date}"></div>
+            <div class="error" th:if="${#fields.hasErrors('date')}" th:errors="*{date}"></div>
             <label>Start Date</label>
             <input type="date" th:field="*{date}">
         </div>
         <div>
-            <div style="color: red" th:if="${#fields.hasErrors('duration')}" th:errors="*{duration}"></div>
+            <div class="error" th:if="${#fields.hasErrors('duration')}" th:errors="*{duration}"></div>
             <label>Duration</label>
             <input type="number" th:field="*{duration}">
         </div>
