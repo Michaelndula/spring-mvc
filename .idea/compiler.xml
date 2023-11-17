@@ -10,5 +10,13 @@
         <module name="TravelAgencyApp" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Travel_Agency" target="1.7" />
+      <module name="TravelAgencyApp (1)" target="1.7" />
+      <module name="TravelAgencyApp (2)" target="1.7" />
+      <module name="TravelAgencyAppHibernate" target="1.7" />
+      <module name="TravelAgencyAppHibernate (1) (org.travelapp)" target="1.7" />
+      <module name="TravelAgencyAppHibernate (2) (org.travelapphibernate)" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

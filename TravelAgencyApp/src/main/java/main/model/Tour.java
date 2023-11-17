@@ -1,14 +1,20 @@
 package main.model;
 
+import jakarta.persistence.*;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.validation.constraints.*;
 import java.util.Date;
 
+@Entity
 public class Tour {
     private enum Continents{
         Africa, Asia, Europe, North_America, South_America;
     }
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
     @NotBlank(message = "{Invalid.name}")
     @Size(min = 5, message = "{Invalid.name}")
     private String name;
@@ -22,6 +28,7 @@ public class Tour {
     @Min(value = 7, message = "{Invalid.durationRang}")
     @Max(value = 21, message = "{Invalid.durationRang}")
     private int duration;
+    @Column(name = "all_inclusive")
     private boolean allInclusive;
 
     public String getName() {
