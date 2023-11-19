@@ -55,6 +55,26 @@
       <artifactId>spring-jdbc</artifactId>
       <version>1.2.6</version>
     </dependency>
+      <dependency>
+          <groupId>org.hibernate</groupId>
+          <artifactId>hibernate-core-jakarta</artifactId>
+          <version>5.6.15.Final</version>
+      </dependency>
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-core</artifactId>
+          <version>5.2.25.RELEASE</version>
+      </dependency>
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-core-jakarta</artifactId>
+      <version>5.6.15.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate.orm</groupId>
+      <artifactId>hibernate-core</artifactId>
+      <version>6.2.4.Final</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>TravelAgency</finalName>

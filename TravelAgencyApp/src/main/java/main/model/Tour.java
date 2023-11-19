@@ -3,6 +3,8 @@ package main.model;
 import jakarta.persistence.*;
 import org.springframework.format.annotation.DateTimeFormat;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.validation.constraints.*;
 import java.util.Date;
 
