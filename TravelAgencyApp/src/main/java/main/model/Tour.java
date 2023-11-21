@@ -33,6 +33,14 @@ public class Tour {
     @Column(name = "all_inclusive")
     private boolean allInclusive;
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String getName() {
         return name;
     }
